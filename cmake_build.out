@@ -1,0 +1,9 @@
+Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/cudaq/benchmark-comparison-orig/build --config Debug --target all --
+[build] [2/4  25% :: 1.041] Building CUDAQ object cudaq/CMakeFiles/vqecudaq.dir/src/vqe_cudaq.cpp.o
+[build] FAILED: cudaq/CMakeFiles/vqecudaq.dir/src/vqe_cudaq.cpp.o 
+[build] /opt/nvidia/cudaq/bin/nvq++ --cmake-host-compiler /usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DUSE_CUDAQ /home/cudaq/benchmark-comparison-orig/cudaq/include /usr/include -c /home/cudaq/benchmark-comparison-orig/cudaq/src/vqe_cudaq.cpp -o cudaq/CMakeFiles/vqecudaq.dir/src/vqe_cudaq.cpp.o 
+[build] tput: No value for $TERM and no -T specified
+[build] tput: No value for $TERM and no -T specified
+[build] argument /home/cudaq/benchmark-comparison-orig/cudaq/include is ignored
+[build] argument /usr/include is ignored
